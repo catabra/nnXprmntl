@@ -1,0 +1,12 @@
+# 2.Write a function to get the area of a circle from the radius.
+
+# Run test for function(10) Output:314.1592653589793
+# EXERCISE:
+
+from math import pi
+def ricecake(radius): # ricecake because it's a circle
+	surface = radius **2*pi
+	return surface
+
+ricecake(10)
+
